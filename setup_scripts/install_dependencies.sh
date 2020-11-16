@@ -35,7 +35,6 @@ echo "================================================================"
 # Setup directory for pulling external pkgs
 # Download packages from merged .rosinstall files
 cd $CURR_DIR/..
-wstool init
 wstool update
 
 echo "================================================================"
